@@ -1,0 +1,39 @@
+body{
+    background: #66d7d1;
+  
+  }
+  
+  nav ul{
+  list-style: none;
+  margin: 0 px;
+  padding:5 px;
+  font-size: 30 px;
+  
+  
+  }
+  
+
+  li{
+  
+  display:inline-block;
+  margin:5 px;
+    
+  }
+  
+  header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 125px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: forestgreen;
+
+  }
+
+
+  
+  

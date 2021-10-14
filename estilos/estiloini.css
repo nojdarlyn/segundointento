@@ -1,0 +1,62 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #333;
+font: 1.2rem;
+line-height: 1.4em;
+}
+h1{
+ font-size:2rem ;
+ line-height: 1.3em;/*espaciado entre las lineas de texto*/
+}
+p{
+margin-bottom: 1.6em;
+line-height: 1,4em;
+}
+.contenedor{
+width: 85%;
+max-width: 850px;/*sera el maximo de ancho que tendran los contedores*/
+margin:0 auto;
+}
+.header{
+background: #333;
+color: white;
+padding: 2rem 0;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+}
+.logo-nav-contenedor{
+display: flex;
+justify-content: space-between;/*separa el logo y la lista hacia los lados*/
+align-items: center;
+}
+header a{
+color: white;
+text-decoration: none;
+}
+.navigator ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.navigator ul li{
+    display: inline-block;
+}
+.navigator ul li a:hover{
+background:#4a4a4a;
+}
+.Logo{
+letter-spacing: 18px;
+font-size: 1.9em;
+}
+.footer{
+background: #f2f2f2;
+padding: 2rem 0rem;
+text-align: center;
+margin: 6rem;
+}
+main{
+padding-top: 8rem;
+}
+
